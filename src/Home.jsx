@@ -12,7 +12,7 @@ function Home() {
   };
   return (
     <div className="container">
-      <h2>CRUD with JSON Server </h2>
+      {/* <h2>CRUD with JSON Server </h2> */}
       <Link to="/create" className="btn btn-success my-3 font-size-18">
         Create +
       </Link>
