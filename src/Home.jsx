@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { DeleteUser } from "./userReducer";
 function Home() {
   const user = useSelector((state) => state.user);
