@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { DeleteUser } from "./userReducer";
 function Home() {
   const user = useSelector((state) => state.user);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const handkeDelete = (id) => {
