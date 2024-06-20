@@ -5,7 +5,7 @@ import { updateUser } from "./userReducer";
 function Update() {
   const { id } = useParams();
   const user = useSelector((state) => state.user);
-  const existingUser = user.filter((data) => data.id === id);
+  const existingUser = user.filter((data) => data.id == id);
   const { name, email } = existingUser[0];
   const [uname, setName] = useState(name);
   const [uemail, setEmail] = useState(email);
